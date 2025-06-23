@@ -9,5 +9,7 @@ j'ai pu retracer l'entiereté de la manette mais surtout comprendre comment cell
 Vous retrouverez dans ce dépot, les schematiques et les tracés des PCB.
 L'objectif de base etait que ceux-ci soient les plus fidèles possible au modèle original.
 
+Ce projet avait pour but de m'améliorer encore plus en electronique et aussi de design mon 1er 4 layers PCB.
+
 Lien forum : https://acidmods.com/forum/index.php?topic=44711.0
 
