@@ -1,0 +1,108 @@
+(footprint "Xbox_AntennaNetTie"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "net tie")
+	(property "Reference" "REF**"
+		(at 0 -1.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e7c753b6-a0dd-45c6-93fd-c1240eff6d76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Xbox_AntennaNetTie"
+		(at 0 1.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e727730c-e7ae-4a70-a823-8ff76ab6efec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -0.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a23aeea-13cc-4279-9445-35b73c8bca28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -0.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfc84fb1-80ec-491f-8c13-0a2abdef8f22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -0.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9fe4d81-b267-48fd-a9e4-5f34398a4be4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(net_tie_pad_groups "1,2")
+	(fp_poly
+		(pts
+			(xy -1.4 -0.025) (xy 1.675 -0.025) (xy 1.675 0.125) (xy -1.4 0.125)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "3b76211e-5ac3-48d8-ad3d-fada5cba8c52")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1dcc1ca7-c2e9-44f3-8d06-84b6948fff4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at -1.4 0.05)
+		(size 0.15 0.15)
+		(layers "F.Cu")
+		(uuid "c6d25336-4466-4452-918e-697847bdb3ef")
+	)
+	(pad "2" smd circle
+		(at 1.875 0.05)
+		(size 0.5 0.5)
+		(layers "F.Cu")
+		(uuid "e2aecc63-e520-4aa3-9547-669b96e9c0c2")
+	)
+)

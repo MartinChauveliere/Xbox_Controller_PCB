@@ -1,0 +1,84 @@
+(footprint "Xbox_TestPoint_0.8mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.025 -0.725 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "74387091-f67a-4f80-9708-519966eb0802")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "Xbox_TestPoint_0.8mm"
+		(at -0.05 1.575 0)
+		(layer "F.Fab")
+		(uuid "f89ae7fa-9e11-40b9-898e-b8110ed5fbdf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "520277fb-95db-46f1-9fe9-08a3eea1a6db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86b7de68-27ba-471c-bf8d-c8dd507a060d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7fab91a-0171-415c-b287-8740474bfaba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 -0.0064)
+		(end 0.4 -0.0064)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f9f2077f-a231-482f-b882-c45c7abce62d")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "fb3835a6-03f2-4665-a746-1c3694de1c45")
+	)
+)

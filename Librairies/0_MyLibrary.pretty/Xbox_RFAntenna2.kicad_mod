@@ -1,0 +1,120 @@
+(footprint "Xbox_RFAntenna2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.525 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "26b96bcd-d9f5-4521-8157-2d78ed2bf3f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Xbox_RFAntenna2"
+		(at 0 3.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aeb83330-40a2-46a3-95a2-92fa81229f20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e6e91a3-0b12-4f5f-aa4c-6c67e2484d43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "582f952b-c0f7-471b-b289-a398f4373fb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42148d6f-e9a8-4af5-8093-64b3c088b8b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.375 -1.15)
+		(end 4.1 1.725)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9f29d788-eb3c-4cb9-ba23-eb4637c337b1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c9b8f1b8-2fc9-4976-a203-4d6b9ebdc5c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 3.625 1.05)
+		(size 0.5 0.5)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -3.699221 -1.979902) (xy -3.698895 -1.979454) (xy -3.694599 -1.978251) (xy -3.685251 -1.971207)
+					(xy -3.11606 -1.487594) (xy -2.513709 -1.047719) (xy -2.070833 -0.767492) (xy -1.594984 -0.557669)
+					(xy -0.279739 -0.4685) (xy -0.23775 -0.4685) (xy -0.216039 -0.464181) (xy 0.158764 -0.438771) (xy 0.216116 -0.415741)
+					(xy 0.248978 -0.363398) (xy 0.251961 -0.336223) (xy 0.231961 0.383777) (xy 0.211238 0.442002) (xy 0.160249 0.476927)
+					(xy 0.125866 0.480812) (xy -1.649561 0.371707) (xy -1.675242 0.371762) (xy -2.365242 0.191762)
+					(xy -2.384721 0.184443) (xy -3.024721 -0.135557) (xy -3.039767 -0.144825) (xy -3.589767 -0.554825)
+					(xy -3.606452 -0.57054) (xy -4.009859 -1.049) (xy -7.628 -1.049) (xy -7.686779 -1.068098) (xy -7.723106 -1.118098)
+					(xy -7.728 -1.149) (xy -7.728 -1.899) (xy -7.708902 -1.957779) (xy -7.658902 -1.994106) (xy -7.628 -1.999)
+					(xy -3.758 -1.999)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "f1526f18-0e00-41da-a6f7-8b1d445cee33")
+	)
+)

@@ -1,0 +1,99 @@
+(footprint "Xbox_SOC_to_MCU_27"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.032 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1e946c7d-a48f-43d6-beca-cbc6d7e69d04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Xbox_SOC_to_MCU_27"
+		(at 0 2.794 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "85f1ef0a-c09a-43de-b097-708972fa8d05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 5.1686 -0.3992 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7aeb638-e1e9-4f39-8a07-a1db69a1ef19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 5.1686 -0.3992 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ae9bc44-4bc0-40f3-b099-1085fe8329fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 5.1686 -0.3992 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92c585a4-b019-442b-871d-1d5a8fbe2771")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.55 -1.1)
+		(end 0.55 1.0748)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "f0f344f9-9e0b-43c4-a20d-d1fb3dd23831")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.294 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cace4a53-cdde-42b1-8a99-6ed1ba5a6b98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" connect rect
+		(at 0 0 90)
+		(size 1.9612 0.85)
+		(layers "B.Cu" "B.Mask")
+		(uuid "2fe3faed-b66e-4985-ac98-daf4b263f7a2")
+	)
+)
